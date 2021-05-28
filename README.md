@@ -1,2 +1,2 @@
 # instagramlikebot
-simple headless Instagram likebot ( works on ssh server )
+simple headless Instagram likebot ( works on vserver )
