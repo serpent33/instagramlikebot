@@ -27,8 +27,8 @@ class bot():
         # OPTIONS
         self.opt = webdriver.FirefoxOptions()
 
-        #self.opt.add_argument("--window-size=1440, 900")
-        #self.opt.add_argument("--headless") #Headless
+        self.opt.add_argument("--window-size=1440, 900")
+        self.opt.add_argument("--headless") #Headless
         
         # DRIVER
         self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install(), options= self.opt)
